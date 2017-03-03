@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript</title>
+    <script>
+      function say(b){
+        document.write(b);
+        document.writeln("<br>");   //new line tag
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+      document.writeln("hello world");    //displays hello world
+      document.writeln("<br>");
+
+      var a = ["happy", 5, "lucky"];    //create and display contents of array
+      document.writeln(a);
+      document.writeln("<br>");
+
+      say("Hiiiiii");   // calling function
+
+
+      if(a[1] < 10){      //using if statements
+        alert("lower");
+      }
+
+      for(k=0;k<10;k++){    //using for loops
+        say(k+1);
+      }
+    </script>
+  </body>
+</html>
